@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Monserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1f2833;
+  color: white;
+}
+
+.navbar > h2 {
+  padding: 14px;
+  letter-spacing: 3px;
+}
+
+.navbar > button {
+  position: absolute;
+  width: 80px;
+  top: 8px;
+  right: 10px;
+  color: white;
+  background-color: #45a29e;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+main > movie-catalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  margin: 32px auto;
+}
+
+.CenteringText {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  max-height: 65px;
+  padding: 20px;
+  bottom: 0;
+  color: white;
+  background-color: #1f2833;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.darkmode {
+  color: white;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Streulichtfilterung.3.P1023258.jpg/540px-Streulichtfilterung.3.P1023258.jpg");
+  background-repeat: repeat-x repeat-y;
+  background-color: #0b0c10;
+}
